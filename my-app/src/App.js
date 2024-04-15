@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
-import Sidebar from './components/Sidebar';
+import Btn from './Btn';
 import avatar from './avatar_300x300.jpeg'
 
 
@@ -16,10 +16,13 @@ function Logo(props){
 function App() {
   return (
     <div className='App'>
-      <Header name='Selen' />
+      <Header name='Aang' />
       <Logo />
       <div>
         <Main/>
+      </div>
+      <div>
+        <Btn/>
       </div>
     </div>
   )
