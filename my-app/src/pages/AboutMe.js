@@ -1,5 +1,6 @@
 import Header from '../components/Header';
-import avatar from './avatar_300x300.jpeg'
+import avatar from './avatar_300x300.jpeg';
+import Main from '../components/Main';
 
 function Logo(props){
     const userPic = <img src={avatar}/>;
@@ -15,6 +16,7 @@ function AboutMe() {
             <Header name='Aang' />
             <Logo />
             <p>{aboutme}</p>            
+            <Main/>
         </div>
     )
 }

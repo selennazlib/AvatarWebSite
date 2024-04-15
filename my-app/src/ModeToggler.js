@@ -11,7 +11,7 @@ function ModeToggler() {
     return (
         <div>
             {darkModeOn ? darkMode : lightMode}
-            <button onClick={handleClick} style={{ backgroundColor: darkModeOn ? '#222' : '#fff' }}>
+            <button onClick={handleClick} style={{ backgroundColor: darkModeOn ? '#222' : '#fff' , color: darkModeOn ? '#fff' : '#000' }}>
                 Switch the Mode
             </button>
         </div>

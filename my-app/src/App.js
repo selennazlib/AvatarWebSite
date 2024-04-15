@@ -1,5 +1,4 @@
 import './App.css';
-import Main from './components/Main';
 import Homepage from './pages/Homepage';
 import AboutMe from './pages/AboutMe';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -22,11 +21,6 @@ function App() {
         <Route path="/about-me" element={<AboutMe/>}/>
       </Routes>
       
-       
-      <div>
-        <Main/>
-      </div>
-
     </div>
   )
 }

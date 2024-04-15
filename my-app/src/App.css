@@ -39,4 +39,12 @@
 
 .nav-item{
   text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+
+.nav{
+  background-color: #277bc7;
+
+  padding: 30px;
 }
