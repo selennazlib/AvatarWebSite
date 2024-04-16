@@ -8,6 +8,10 @@ function ModeToggler() {
     function handleClick(){
         setIsChecked(!darkModeOn);
     }
+    React.useEffect(() => {
+        document.title = darkModeOn ? "Dark Mode Avatar" : "Light Mode Avatar"
+    })
+
     return (
         <div>
             {darkModeOn ? darkMode : lightMode}
